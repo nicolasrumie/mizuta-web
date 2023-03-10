@@ -1,0 +1,113 @@
+/*Importación*/
+@import "colors";
+
+
+
+.navbar{ 
+    display: flex;
+    padding: 5px;
+    margin: 10px auto;
+    column-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.navbar__link{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.header__h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 33px;
+}
+.header__parrafo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+.imagenes__h4{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    color: green;
+}
+.imagenes{
+    column-gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+.imagenes> img{
+    display: grid;
+    border: black solid 5px;
+    margin: 40px;
+}
+.articulos__h4{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    color: green;
+}
+.small-img{
+    column-gap: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.small-img> img{
+    display: grid;
+    border: black solid 5px;
+    margin: 40px;
+}
+.pie{
+    background-color: black;
+}
+.pie__parrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+}
+.pie__parrafo2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin: 7px;
+    padding-bottom: 7px;
+}
+/*Página--Contacto*/
+.navbar-contacto{
+    display: flex;
+    padding: 5px;
+    margin: 10px auto;
+    column-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.navbar__link--contacto{
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+/*Página Tienda*/
+
+.navbar-tienda{
+    display: flex;
+    padding: 5px;
+    margin: 10px auto;
+    column-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.body{
+    background-color: lightgray;
+}

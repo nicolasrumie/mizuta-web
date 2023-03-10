@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Activación de Bootstrap-->
+    <link rel="stylesheet" href="../library/bootstrap/css/bootstrap.min.css">
     <!--Activación de CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <!--Favicon-->
@@ -14,15 +16,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <title>Mizuta-ofertas</title>
 </head>
-<body>
-    <nav class="navbar-contacto">
-        <div><img class="navbar__logo--contacto" src="../recursos/logos/mizuta-logo-withe.png" alt="logo-mizuta" width="300px" height="150px"></div>
-        <a class="navbar__link--contacto" href="../index.html">INICIO</a>  
-        <a class="navbar__link--contacto" href="./tienda.html">TIENDA</a>
-        <a class="navbar__link--contacto" href="#">OFERTAS</a>
-        <a class="navbar__link--contacto" href="./contacto.html">CONTACTO</a>
-        <a class="navbar__link--contacto" href="./nosotros.html">NOSOTROS</a>
-    </nav>
-    
+<body class="body">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../recursos/logos/logo mizuta.png" alt="Logo" width="50px" height="50px" class="d-inline-block align-text-top">
+          </a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Mizuta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <script src="../library/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
