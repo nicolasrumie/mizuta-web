@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*Importación*/
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background: #181A1B;
+}
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.box__footer .logo img {
+  width: 100px;
+}
+
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.box__footer h2 {
+  margin-bottom: 30px;
+  color: #0D6EFD;
+  font-weight: 700;
+}
+
+.box__footer a {
+  max-width: 300px;
+  margin-top: 10px;
+  color: whitesmoke;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+}
+
+.box__copyright {
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+  color: whitesmoke;
+}
+
+.box__copyright hr {
+  border: none;
+  height: 1px;
+  background-color: whitesmoke;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+}
+
+.logo__redes img {
+  padding-top: 7px;
+  padding-right: 5px;
+}
+
+.navbar {
+  display: flex;
+  padding: 5px;
+  margin: 10px auto;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.navbar__link {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.header__h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 33px;
+}
+
+.header__parrafo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+.imagenes__h4 {
+  display: flex;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 150px;
+  color: whitesmoke;
+}
+
+.imagenes {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagenes > img {
+  display: grid;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.articulos__h4 {
+  text-align: end;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 30px;
+  color: whitesmoke;
+}
+
+.small-img {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-img > img {
+  display: grid;
+  border: black solid 5px;
+  margin: 40px;
+}
+
+/*Página Tienda*/
+.navbar-tienda {
+  display: flex;
+  padding: 5px;
+  margin: 10px auto;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.title-maps {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: whitesmoke;
+}
+
+.body {
+  background-color: #202324;
+}/*# sourceMappingURL=style.css.map */

@@ -1,41 +1,49 @@
 /*Importación*/
 @import "colors";
+@import "fonts";
+@import "footer";
+@import "navbar";
 
-
-
-.navbar{ 
-    display: flex;
-    padding: 5px;
-    margin: 10px auto;
-    column-gap: 30px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-}
-.navbar__link{
-    color: white;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
 .header__h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-principal;
     text-align: center;
-    color: black;
-    font-size: 33px;
+    font-size: 40px;
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: 700;
 }
-.header__parrafo{
+
+
+.header__h2{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 25px;
+    font-family: $font-principal;
+    font-size: 30px; 
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+    font-weight: 600;        
 }
+
+
 .imagenes__h4{
     display: flex;
     font-size: 20px;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 30px;
-    color: green;
+    margin-left: 150px;
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 .imagenes{
     column-gap: 40px;
@@ -44,7 +52,7 @@
 }
 .imagenes> img{
     display: grid;
-    border: black solid 5px;
+    border-radius: 20px;
     margin: 40px;
 }
 .articulos__h4{
@@ -52,7 +60,12 @@
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 30px;
-    color: green;
+    background-image: linear-gradient(45deg, $color-principal, $color-secundario);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 .small-img{
     column-gap: 40px;
@@ -64,38 +77,7 @@
     border: black solid 5px;
     margin: 40px;
 }
-.pie{
-    background-color: black;
-}
-.pie__parrafo{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 15px;
-    padding: 7px;
-}
-.pie__parrafo2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 15px;
-    margin: 7px;
-    padding-bottom: 7px;
-}
-/*Página--Contacto*/
-.navbar-contacto{
-    display: flex;
-    padding: 5px;
-    margin: 10px auto;
-    column-gap: 30px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-}
-.navbar__link--contacto{
-    color: white;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
+
 /*Página Tienda*/
 
 .navbar-tienda{
@@ -108,6 +90,303 @@
     background-color: black;
 }
 
+.title-maps{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: $color-principal;
+}
+
+.h1__tienda{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-family: $font-principal;
+    font-weight: 700;
+}
+
+.p__tienda{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: $font-principal;
+}
+
+.h1__ofertas{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-family: $font-principal;
+    font-weight: 700;
+}
+
+.p__ofertas{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family: $font-principal;
+}
+
+.logo__mizuta-nosotros{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header__nosotros-h1{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+    font-family: $font-principal;
+}
+
+.header__nosotros-p{
+    background-image: linear-gradient(45deg, $color-secundario, $color-principal, $color-secundario);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin: auto;
+    max-width: 700px;
+    font-family: $font-principal;
+}
+
 .body{
-    background-color: lightgray;
+    background-color:  #202324;
+}
+
+
+@media screen and (min-width: 540px){
+    .imagenes__img1{
+        max-width: 100%;
+        height: 130px;
+    }
+    .imagenes__img2{
+        max-width: 100%;
+        height: 130px;
+    }
+    .imagenes__img3{
+        max-width: 100%;
+        height: 130px;
+    }
+    .articulos__h4{
+        text-align: end;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 30px;
+        color: whitesmoke;
+    }
+    .header__h1{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 18px;
+    }
+    .header__h2{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .header__parrafo{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+        font-size: 15px;
+    }
+    .imagenes__h4{
+        display: flex;
+        text-align: start;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+        margin: auto;
+    }
+    .logo__mizuta-nosotros{
+        max-width: 100%;
+        height: auto;
+    }
+    .h1__tienda{
+        font-size: 18px;
+    }
+    .p__tienda{
+        font-size: 15px;
+    }
+    .h1__ofertas{
+        font-size: 18px;
+    }
+    .p__ofertas{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 760px){
+    .imagenes__img1{
+        max-width: 100%;
+        height: 200px;
+    }
+    .imagenes__img2{
+        max-width: 100%;
+        height: 200px;
+    }
+    .imagenes__img3{
+        max-width: 100%;
+        height: 200px;
+    }
+    .articulos__h4{
+        text-align: end;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 30px;
+        color: whitesmoke;
+    }
+    .header__h1{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+    .header__h2{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    .header__parrafo{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+        font-size: 20px;
+    }
+    .imagenes__h4{
+        display: flex;
+        text-align: start;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+    }
+    .logo__mizuta-nosotros{
+        max-width: 100%;
+        height: auto;
+    }
+    .h1__tienda{
+        font-size: 25px;
+    }
+    .p__tienda{
+        font-size: 20px;
+    }
+    .h1__ofertas{
+        font-size: 25px;
+    }
+    .p__ofertas{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .imagenes__img1{
+        max-width: 100%;
+        height: 300px;
+    }
+    .imagenes__img2{
+        max-width: 100%;
+        height: 300px;
+    }
+    .imagenes__img3{
+        max-width: 100%;
+        height: 300px;
+    }
+    .articulos__h4{
+        text-align: end;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 30px;
+        color: whitesmoke;
+        font-weight: 700;
+    }
+    .header__h1{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 40px;
+    }
+    .header__h2{
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 30px;
+    }
+    .header__parrafo{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+        font-size: 30px;
+    }
+    .imagenes__h4{
+        display: flex;
+        text-align: start;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-principal;
+        margin-left: 150px;
+        font-weight: 700;
+    }
+    .logo__mizuta-nosotros{
+        max-width: 100%;
+        height: auto;
+    }
+    .h1__tienda{
+        font-size: 40px;
+    }
+    .p__tienda{
+        font-size: 22px;
+    }
+    .h1__ofertas{
+        font-size: 40px;
+    }
+    .p__ofertas{
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.body{
+    background-color:  #202324;
 }
