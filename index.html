@@ -20,30 +20,33 @@
     <title>Mizuta-Tienda de Hardware</title>
 </head>
 <body class="body">
-  <nav class="navbar bg-dark">
+  <nav class="navbar navbar-expand-lg navbar bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./recursos/logos/logo mizuta.png" alt="Logo" width="70px" height="70px" class="d-inline-block align-text-top">
-      </a>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Mizuta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/tienda.html">Tienda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/ofertas.html">Ofertas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
-        </li>
-      </ul>
+        <a class="navbar-brand" href="#">
+            <img src="../recursos/logos/logo mizuta.png" alt="Logo" width="70px" height="70px" class="d-inline-block align-text-top">
+            </a>
+            <a class="navbar-brand" href="#">Mizuta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/ofertas.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/contacto.html">Contacto</a>
+        </div>
     </div>
-  </nav>
+</nav>
     <header class="header">
         <h1 class="header__h1">¡Bienvenido a Mizuta!</h1>
           <h2 class="header__h2">¡Elegí Mizuta, el mejor hardware al mejor precio!</h2>
@@ -53,13 +56,13 @@
         <h4 class="imagenes__h4">PCs Recomendadas↓</h4>
         <section class="imagenes">
           <a href="./pages/tienda.html">
-            <img class="imagenes__img1" src="./recursos/imagenes/Cpu transparente.jpg" width="500px" height="314px" alt="">
+            <img class="imagenes__img1" src="./recursos/imagenes/Cpu transparente.jpg" width="500px" height="350px" alt="cpu-transparente">
           </a>
           <a href="./pages/tienda.html"> 
-            <img class="imagenes__img2" src="./recursos/imagenes/cpu ult gen.jpg" width="500px" height="314px" alt="">
+            <img class="imagenes__img2" src="./recursos/imagenes/cpu ult gen.jpg" width="500px" height="350px" alt="cpu-ultima-generación">
           </a> 
           <a href="./pages/tienda.html">
-            <img class="imagenes__img3" src="./recursos/imagenes/cpu flama.jpg" width="500px" height="314px" alt="">
+            <img class="imagenes__img3" src="./recursos/imagenes/cpu flama.jpg" width="500px" height="350px" alt="cpu-gama media-alta,mk">
           </a>
         </section>
     </div>   
@@ -70,7 +73,7 @@
   <h4 class="articulos__h4">↓Productos Destacados</h4>
     <div class="row">
         <div class="card" style="width: 16rem;">
-            <img src="./recursos/imagenes/msi geforce rtx 3090 ventus 3x 24gb.jpg" class="card-img-top" alt="...">
+            <img src="./recursos/imagenes/msi geforce rtx 3090 ventus 3x 24gb.jpg" class="card-img-top" alt="msi-geforce-rtx-3090">
             <div class="card-body">
             <h5 class="card-title">MSI Geforce Rtx 3090 Ventus</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -79,7 +82,7 @@
         </div>
 
         <div class="card" style="width: 16rem;">
-            <img src="./recursos/imagenes/monitor-gamer-curvo.jfif" class="card-img-top" alt="...">
+            <img src="./recursos/imagenes/monitor-gamer-curvo.jfif" class="card-img-top" alt="monitor-gamer-curvo">
             <div class="card-body">
             <h5 class="card-title">Monitor Gamer Curvo Samsung 27"</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -88,7 +91,7 @@
         </div>
 
         <div class="card" style="width: 16rem;">
-            <img src="./recursos/imagenes/gabinete aureox sculptor.jpeg" class="card-img-top" alt="...">
+            <img src="./recursos/imagenes/gabinete aureox sculptor.jpeg" class="card-img-top" alt="gabinete-aureox-sculptor">
             <div class="card-body">
             <h5 class="card-title">Gabinete Aureox Sculptor</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +100,7 @@
         </div>
 
         <div class="card" style="width: 16rem;">
-            <img src="./recursos/imagenes/procesador ryzen 7.jpg" class="card-img-top" alt="...">
+            <img src="./recursos/imagenes/procesador ryzen 7.jpg" class="card-img-top" alt="procesador-ryzen-7">
             <div class="card-body">
             <h5 class="card-title">Procesador Ryzen 7 5700g</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
