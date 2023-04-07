@@ -59,7 +59,7 @@
     text-align: end;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 30px;
+    margin-right: 70px;
     background-image: linear-gradient(45deg, $color-principal, $color-secundario);
     background-clip: text;
     -webkit-background-clip: text;
@@ -190,6 +190,11 @@
     display: flex;
 }
 
+.contain{
+    display: flex;
+    justify-content: center;
+}
+
 .formulario{
     color: #0886D9;
     font-size: 25px;
@@ -301,6 +306,9 @@ textarea{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
 }
+.row{
+    display: flex;
+}
 
 @media screen and (max-width: 880px){
 	.contact-box{
@@ -360,16 +368,16 @@ textarea{
         height: auto;
     }
     .h1__tienda{
-        font-size: 18px;
+        font-size: 25px;
     }
     .p__tienda{
-        font-size: 15px;
+        font-size: 20px;
     }
     .h1__ofertas{
-        font-size: 18px;
+        font-size: 25px;
     }
     .p__ofertas{
-        font-size: 15px;
+        font-size: 20px;
     }
 
 }
